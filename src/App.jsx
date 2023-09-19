@@ -1,6 +1,6 @@
 import './App.css'
-import Card from './components/Card'
-import luffy from './assets/luffy-gear-5.png'
+import CardsContainer from './components/CardsContainer'
+
 
 function App() {
 
@@ -14,13 +14,11 @@ function App() {
 
   return (
     <div className='App'>
-      <h1 className='title' style={titleCSS}>Luffy Gear 5 Highlights</h1>
-      <Card 
-        name='Luffy Gear 5'
-        description='Luffy Gear 5 first time'
-        videoLink='https://www.youtube.com/watch?v=gr8reTtElqc'
-        image={luffy}  
-      />
+      
+      <h1 className='title' style={titleCSS}>One Piece Wano Arc Best Moments</h1>
+      <CardsContainer />      
+
+      
     </div>
   )
 }

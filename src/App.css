@@ -1,14 +1,22 @@
-/* #root {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-} */
+}
 
 .card{
-  border: red 1px solid;
+  margin: 1rem;
 }
 
 .card:hover{
-  border: purple 1px solid;
+  border: #ef3bce 1px solid;
+}
+
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 10rem 0 10rem;
+  /* margin: 0 auto; */
 }
