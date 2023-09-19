@@ -1,11 +1,14 @@
 /* eslint-disable react/prop-types */
-
+import YoutubeThumbnails from "./YoutubeThumbnails";
 
 const Card = (props) => {
     return(
         <div className="card">
+
             <a href={props.videoLink}>
-                <img src={props.image} width='250' height='200' alt="img not found"/>
+                <YoutubeThumbnails
+                    videoId={props.videoId}
+                />
             </a>
             <div>{props.name}</div>
         </div>
